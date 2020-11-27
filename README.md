@@ -17,6 +17,8 @@ Natomiast kiedy trafi dostaje informacje, że wygrał oraz ilość prób zanim z
 W tej klasie jak przed chwilą wspomniałam znajduje się licznik, który się zwiększa po każdym
  nie trafieniu.
  ### Klasa CurrencyService.java:
+ @Service -  wykonuje jakąś czynność, odpowiada za wykonywanie danych
+zadań.
  Klasa CurrencyService.java odpowiada w głownej mierze za połączenie z zewnętrznym api, które znajduje się na stronie http://api.nbp.pl/ oraz
  pobieranie obecnego kursu walut w walutach takich jak : USD, EUR, GBP, CHF,
   HUF,  RUB, NOK, HKD w formacie JSON. Również w tej klasie jest stworzona metoda do losowania waluty ze stworzonej tablicy z konkretnymi walutami, którą użytkownik będzie 
